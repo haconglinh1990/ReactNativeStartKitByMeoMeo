@@ -1,0 +1,50 @@
+{
+  "name": "ReactNativeStartKitByMeoMeo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "color": "3.1.0",
+    "lodash": "4.17.11",
+    "native-base": "2.12.1",
+    "prop-types": "15.7.2",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-native-device-info": "^1.4.2",
+    "react-native-extended-stylesheet": "^0.11.1",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-navigation": "3.6.1",
+    "react-redux": "6.0.1",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "2.13.8",
+    "redux-logger": "3.0.6",
+    "redux-persist": "5.10.0",
+    "redux-saga": "1.0.2",
+    "save": "2.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "7.4.3",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "24.7.1",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-defaults": "9.0.0",
+    "eslint-config-equimper": "2.2.2",
+    "eslint-config-rallycoding": "3.2.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react-native": "3.6.0",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
